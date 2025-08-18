@@ -4,10 +4,10 @@ import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "KC Auto-Recycling",
-  description: "webuycarsontario",
-};
+// export const metadata: Metadata = {
+//   title: "KC Auto-Recycling",
+//   description: "webuycarsontario",
+// };
 
 export default function RootLayout({
   children,
@@ -27,7 +27,7 @@ export default function RootLayout({
         />
         <meta
           name="keywords"
-          content="Sell used car Ontario, Canada, cash for cars, buy used cars, sell my car, instant cash, Ontario car buyers"
+          content="we buy cars Ontario, Sell used car Ontario, Canada, cash for cars, buy used cars, sell my car, instant cash, Ontario car buyers"
         />
         <meta
           name="google-site-verification"
