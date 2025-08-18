@@ -18,6 +18,10 @@ export default function Home() {
           name="keywords"
           content="Sell used car Ontario, Canada, cash for cars, buy used cars, sell my car, instant cash, Ontario car buyers"
         />
+        <meta
+          name="google-site-verification"
+          content="FHqc6NCHweS9fG-CcpFj9AA5PPHjwko0r-iXDaQKUK0"
+        />
         <link
           rel="canonical"
           href={process.env.NEXT_PUBLIC_SITE_URL}
