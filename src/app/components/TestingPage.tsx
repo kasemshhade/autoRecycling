@@ -71,7 +71,7 @@ export const TestingPage = () => {
 
                 <p className="item-title">Call Us :</p>
 
-                <a href="tel:16475333813" className="item-link">
+                <a href="tel:+16475333813" className="item-link">
                   +1 (647) 533 3813
                 </a>
               </li>
