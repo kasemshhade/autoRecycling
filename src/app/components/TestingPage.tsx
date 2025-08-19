@@ -91,7 +91,7 @@ export const TestingPage = () => {
           <div className="container">
             <a href="#" className="logo">
               Auto Recycling
-              <span className="span">Vehicle scrap and dismantling</span>
+              <span className="span">Vehicle scrap and part out</span>
             </a>
 
             <a href="https://wa.me/16475333813" className="btn has-before">
@@ -115,19 +115,19 @@ export const TestingPage = () => {
           >
             <div className="container">
               <h1 className="h1 hero-title">
-                We Buy Your Used Car for Cash in Ontario
+                We Buy Your Used Vehicle for Cash in Ontario
               </h1>
 
               <h3 className="h3 hero-title" style={{ color: "#00ff2f" }}>
-                Get up to $10,000 cash for your car today
+                Get up to $10,000 cash for your Vehicle today
               </h3>
 
               <p className="hero-text">
-                Have a salvage vehicle for sale? We buy cars as is for cash. Let
-                us buy your salvage vehicle for a fair and honest price. Get
-                instant cash for your used car in Ontario, Canada with Kc Auto
-                Recycling inc. We offer hassle-free transactions and top dollar
-                for your vehicle. Contact us today!
+                Have a old or used vehicle for sale? We buy vehicles as is for
+                cash. Let us buy your salvage vehicle for a fair and honest
+                price. Get instant cash for your used Vehicle in Ontario, Canada
+                with Kc Auto Recycling inc. We offer hassle-free transactions
+                and top dollar for your vehicle. Contact us today!
               </p>
 
               <a href="https://wa.me/16475333813" className="btn has-before">
@@ -149,9 +149,10 @@ export const TestingPage = () => {
               </h2>
 
               <p className="section-text text-center">
-                Sell your damaged or older car for the best price. We buy cars
-                with major and minor damage, no matter the age and kms. We buy
-                all makes and models with free pick up.
+                Sell your damaged or older vehicle for the best price. We buy
+                vehicles with major and minor damage, no matter the age and kms.
+                We buy all makes and models with free pick up and instant cash
+                same day.
               </p>
 
               <ul className="grid-list">
@@ -218,7 +219,7 @@ export const TestingPage = () => {
                     </h3>
 
                     <p className="card-text">
-                      Then receive instant cash for your car in person and
+                      Then receive instant cash for your vehicle in person and
                       you&apos;re done!.
                     </p>
                   </div>
