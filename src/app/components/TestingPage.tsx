@@ -59,6 +59,31 @@ const WhatsappOutline = () => (
   </svg>
 );
 
+const LinkIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 20 20"
+    fill="none"
+    className="w-[1.375rem] h-[1.375rem] text-primary"
+  >
+    <path
+      d="M11.666 10.0006C11.666 7.92419 9.73521 5.83594 7.3803 5.83594C7.10136 5.83594 6.18188 5.83594 5.95173 5.83594C3.5848 5.83594 1.66602 7.70054 1.66602 10.0006C1.66602 11.9826 3.09079 13.6413 4.99935 14.0621C5.30565 14.1297 5.6244 14.1653 5.95173 14.1653"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M8.33398 9.99937C8.33398 12.0758 10.2648 14.1641 12.6197 14.1641C12.8986 14.1641 13.8181 14.1641 14.0483 14.1641C16.4152 14.1641 18.334 12.2995 18.334 9.99937C18.334 8.01736 16.9092 6.35873 15.0007 5.93789C14.6944 5.87035 14.3756 5.83469 14.0483 5.83469"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
 export const TestingPage = () => {
   return (
     <>
@@ -82,6 +107,18 @@ export const TestingPage = () => {
                 <p className="item-title">Opening Hour :</p>
 
                 <p className="item-text">Sunday - Friday, 08 am - 09 pm</p>
+              </li>
+              <li className="header-top-item">
+                <LinkIcon />
+                <p className="item-title">Read :</p>
+
+                <Link
+                  className="item-title"
+                  prefetch={false}
+                  href={"/junkyard-chatham-ontario"}
+                >
+                  Blog
+                </Link>
               </li>
             </ul>
           </div>
@@ -235,6 +272,15 @@ export const TestingPage = () => {
       >
         <div className="container">
           <div className="footer-bottom">
+            <p className="copyright">
+              <Link
+                className="item-title"
+                prefetch={false}
+                href={"/junkyard-chatham-ontario"}
+              >
+                Read: Blog
+              </Link>
+            </p>
             <p className="copyright">
               &copy; 2024{" "}
               <a href="#" className="copyright-link">
