@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     "Sell minivan",
     "Free pick up",
     "Junk yard",
-    "Car wrecker’s",
+    "Car wreckers",
     "Scrap yard",
   ],
   openGraph: {
