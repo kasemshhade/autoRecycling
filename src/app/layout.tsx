@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+console.log(process.env.NEXT_PUBLIC_SITE_URL)
 export const metadata: Metadata = {
   title:
     "Sell Your Used Vehicle for Cash in Ontario, Canada | KC Auto-Recycling",
