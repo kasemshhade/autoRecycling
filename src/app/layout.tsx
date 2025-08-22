@@ -81,7 +81,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-console.log(process.env.NEXT_PUBLIC_SITE_URL)
+console.log("NEXT_PUBLIC_SITE_URL", process.env.NEXT_PUBLIC_SITE_URL)
   return (
     <html lang="en">
       <head>
