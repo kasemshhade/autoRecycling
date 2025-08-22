@@ -90,7 +90,7 @@ console.log("NEXT_PUBLIC_SITE_URL", process.env.NEXT_PUBLIC_SITE_URL)
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": ["AutoDealer", "RecyclingCenter"], // Multiple business types
+              "@type": ["LocalBusiness", "AutoDealer", "RecyclingCenter"], // Multiple business types
               name: "KC Auto Recycling",
               url: "https://kcautorecycling.ca",
               logo: "https://kcautorecycling.ca/logo.png",
