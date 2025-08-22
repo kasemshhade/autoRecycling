@@ -41,6 +41,7 @@ export default function JunkyardChathamOntarioPage() {
             description:
               "KC Auto Recycling is a junkyard and auto recycling center in Chatham, Ontario. We buy scrap cars for cash, provide free pickup, and recycle vehicles responsibly.",
             telephone: "+1-647-533-3813",
+              priceRange: "$$",
             address: {
               "@type": "PostalAddress",
               streetAddress: "7720 Queen's Line",
