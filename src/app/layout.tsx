@@ -63,7 +63,7 @@ export const metadata: Metadata = {
       "Sell your old car hassle-free with KC Auto Recycling. We provide eco-friendly auto recycling services in Ontario.",
     url: process.env.NEXT_PUBLIC_SITE_URL,
     siteName: "KC Auto Recycling",
-    locale: "en_US",
+    locale: "en_CA",
     type: "website",
     images: [
       {
@@ -115,6 +115,8 @@ console.log("NEXT_PUBLIC_SITE_URL", process.env.NEXT_PUBLIC_SITE_URL)
               openingHours: "Mo-Fri 09:00-20:00",
               sameAs: [
                 "https://web.facebook.com/profile.php?id=100064321860658",
+                "https://www.yelp.ca/biz/kc-auto-recycling-chatham",
+                "https://g.co/kgs/zYXZtYJ",
                 // "https://www.instagram.com/yourpage",
               ],
               makesOffer: [
