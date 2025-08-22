@@ -265,6 +265,24 @@ export const TestingPage = () => {
               </ul>
             </div>
           </section>
+          <section
+            className="service"
+            style={{ marginBottom: "3rem" }}
+            aria-label="services"
+          >
+            <div className="container">
+              <h2 className="h2 section-title text-center">
+                Serving Chatham and Surrounding Ontario Towns
+              </h2>
+
+              <p className="text-center">
+                KC Auto Recycling is proud to provide junkyard and scrap car
+                services in Chatham, Windsor, Sarnia, London, and nearby Ontario
+                towns. Wherever you are, we’ll pick up your vehicle and pay cash
+                on the spot.
+              </p>
+            </div>
+          </section>
         </article>
       </main>
       <footer
